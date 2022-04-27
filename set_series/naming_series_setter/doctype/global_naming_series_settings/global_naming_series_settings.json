@@ -1,0 +1,53 @@
+{
+ "actions": [],
+ "creation": "2022-04-27 01:55:41.981151",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name_series",
+  "set_series",
+  "type_confirmed"
+ ],
+ "fields": [
+  {
+   "description": "Not including the incremental value",
+   "fieldname": "name_series",
+   "fieldtype": "Data",
+   "label": "Name series"
+  },
+  {
+   "fieldname": "set_series",
+   "fieldtype": "Int",
+   "label": "Set series"
+  },
+  {
+   "fieldname": "type_confirmed",
+   "fieldtype": "Data",
+   "label": "Type \"Confirmed\""
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2022-04-27 01:56:36.314026",
+ "modified_by": "Administrator",
+ "module": "Naming Series setter",
+ "name": "Global naming series settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
