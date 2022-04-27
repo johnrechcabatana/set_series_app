@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include set_series *.css
+recursive-include set_series *.csv
+recursive-include set_series *.html
+recursive-include set_series *.ico
+recursive-include set_series *.js
+recursive-include set_series *.json
+recursive-include set_series *.md
+recursive-include set_series *.png
+recursive-include set_series *.py
+recursive-include set_series *.svg
+recursive-include set_series *.txt
+recursive-exclude set_series *.pyc
